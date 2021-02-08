@@ -1,0 +1,84 @@
+@media screen and (max-width: 1200px){
+    .bookNowContainer{
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    #hero h1{
+        font-size: 4.5rem;;
+    }
+
+    #facilities h2{
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 992px){
+    .bookNowContainer{
+        width: 100%;
+        position: relative;
+        top: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .bookNowBtnSm{
+        display: block;
+    }
+
+    .bookNowBtnLg{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .hospitalityContent{
+        width: 100%;
+    }
+
+    /* .roomSamplesBg p{
+        text-align: center;
+    } */
+
+    #facilities .swimmingPool,
+    #facilities .hotelGym,
+    #facilities .restaurant{
+        height: 30vh;
+    }
+
+    #rooms{
+        margin-bottom: 150px;
+    }
+
+    #rooms h2{
+        font-size: 3rem;
+    }
+
+    .typesOfRooms h3{
+        font-size: 1.3rem;
+    }
+
+    #rooms button{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #testimonial{
+        position: relative;
+        background-image: linear-gradient(to bottom, rgba(0, 32, 62, 0.8), rgba(0, 32, 62, 0.5)), url(images/testimonial-image.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;.
+    }
+    
+    .testimonialBox{
+        position: initial;
+        right: auto;
+        bottom: 0;
+        margin: 30px auto 20px auto;
+        max-width: 450px;
+        background: rgba(0, 32, 62, 0.5);
+    }
+}

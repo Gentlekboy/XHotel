@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Katibeh&family=Lato:wght@300;400;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <title>XHotel</title>
+</head>
+<body>
+    <header>
+        <div class="container-fluid d-flex">
+            <div class="row">
+                <div class="col-1"></div>
+
+                <div class="col-10">
+                    <h1 class="text-center"><a href="index.html">XHOTEL</a></h1>
+                </div>
+
+                <div class="col-1 d-flex justify-content-center">
+                    <select name="language" id="language">
+                        <option value="">EN</option>
+                        <option value="">ES</option>
+                        <option value="">FR</option>
+                        <option value="">ZH</option>
+                        <option value="">DE</option>
+                        <option value="">RU</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav mx-auto">
+                      <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      <a class="nav-link mx-4" href="#">Rooms</a>
+                      <a class="nav-link" href="#">Facilities</a>
+                      <a class="nav-link mx-4" href="#">Reservations</a>
+                      <a class="nav-link" href="#">Contact Us</a>
+                    </div>
+                  </div>
+                </div>
+            </nav>
+
+            <h1>Hotel in the center of Lagos</h1>
+        </div>
+    </section>
+
+    <section id="service" class="pb-5">
+        <div class="container">
+            <div class="bookNowContainer d-flex flex-column align-items-center justify-content-center px-5 py-4">
+                <div class="bookNowContent mb-md-5">
+                    <div class="roomType d-flex flex-column">
+                        <label for="roomType" class="mb-2">Room Type</label>
+                        <select name="roomType" id="roomType">
+                            <option value="">Choose Type</option>
+                            <option value="">Standard Suite</option>
+                            <option value="">Business Suite</option>
+                            <option value="">Executive Suite</option>
+                        </select>
+                    </div>
+    
+                    <div class="checkIn d-flex flex-column">
+                        <label for="checkIn" class="mb-2">Check In</label>
+                        <input type="date" name="checkIn" id="checkIn">
+                    </div>
+    
+                    <div class="checkOut d-flex flex-column">
+                        <label for="checkOut" class="mb-2">Check Out</label>
+                        <input type="date" name="checkOut" id="checkOut">
+                    </div>
+    
+                    <div class="guest d-flex flex-column">
+                        <label for="guest" class="mb-2">No of Guests</label>
+                        <select name="guest" id="guest">
+                            <option value="">Choose Number</option>
+                            <option value="">1</option>
+                            <option value="">2</option>
+                            <option value="">3</option>
+                            <option value="">4</option>
+                            <option value="">5</option>
+                        </select>
+                    </div>
+    
+                    <div class="room d-flex flex-column">
+                        <label for="room" class="mb-2">No of Rooms</label>
+                        <select name="room" id="room">
+                            <option value="">Choose Number</option>
+                            <option value="">1</option>
+                            <option value="">2</option>
+                            <option value="">3</option>
+                            <option value="">4</option>
+                            <option value="">5</option>
+                        </select>
+                    </div>
+
+                    <div class="bookNowBtnSm text-center">
+                        <button>Book Now</button>
+                    </div>
+                </div>
+
+                <div class="bookNowBtnLg text-center">
+                    <button>Book Now</button>
+                </div>
+            </div>
+
+            <div class="hospitality d-flex align-items-center justify-content-center">
+                <div class="hospitalityContent text-center">
+                    <h2>Hospitality at its Best</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate consequatur officiis eaque dicta, minima illo expedita, ea laboriosam quas quaerat, officia fugiat corporis ipsam. Culpa omnis ipsum aut ipsa, ex consequuntur, quia incidunt asperiores maiores temporibus cumque? Itaque ab corporis ea necessitatibus earum distinctio libero dolorem, magni dicta repudiandae et.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="subscribe">
+        <div class="container d-flex flex-column flex-md-row justify-content-center align-items-center" style="height: 100%;">
+            <div class="subscribeText mr-md-5 mb-3 mb-md-0">
+                <h2>Get information first hand</h2>
+            </div>
+
+            <div class="subscribeBox d-flex align-items-center ml-md-5">
+                <input type="email" name="email" id="email" placeholder="Email Address">
+                <button class="subscribeBtn">Subscribe</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="facilities">
+        <div class="container-fluid">
+            <div class="row restaurant">
+                <div class="col-12 d-flex flex-column justify-content-center align-items-center">
+                    <h2>Restaurant</h2>
+                    <p>To see more of our facilities</p>
+                    <button class="seeMore">See More</button>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 col-md-6 d-flex flex-column justify-content-center align-items-center swimmingPool">
+                    <h2>Outdoor Swimming Pool</h2>
+                </div>
+                <div class="col-12 col-md-6 d-flex flex-column justify-content-center align-items-center hotelGym">
+                    <h2>Hotel Gym</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="rooms">
+        <div class="container">
+            <h2 class="text-center">Rooms</h2>
+
+            <div class="typesOfRooms d-flex justify-content-center mt-4 mb-5">
+                <h3 class="active">Standard Suite</h3>
+                <h3 class="mx-sm-3 mx-md-5">Business Suite</h3>
+                <h3>Executive Suite</h3>
+            </div>
+
+            <div class="row mb-5">
+                <div class="col-12 col-md-4">
+                    <img class="img-fluid w-100" src="images/deluxe-room.png" alt="">
+
+                    <h3>Deluxe Room</h3>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat voluptates deleniti laboriosam aut suscipit adipisci perferendis laborum molestiae eius animi.</p>
+
+                    <div class="roomInfo">
+                        <div class="row">
+                            <div class="col-4">
+                                <p>2 Persons</p>
+                            </div>
+                            <div class="col-4 fullMeal">
+                                <p class="text-center">Full Meal</p>
+                            </div>
+                            <div class="col-4">
+                                <p>12 Hours</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button class="bookNow">Book Now</button>
+                </div>
+
+                <div class="col-12 col-md-4">
+                    <img class="img-fluid w-100" src="images/improved-room.png" alt="">
+
+                    <h3>Improved Room</h3>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat voluptates deleniti laboriosam aut suscipit adipisci perferendis laborum molestiae eius animi.</p>
+
+                    <div class="roomInfo">
+                        <div class="row">
+                            <div class="col-4">
+                                <p>2 Persons</p>
+                            </div>
+                            <div class="col-4 fullMeal">
+                                <p class="text-center">Full Meal</p>
+                            </div>
+                            <div class="col-4">
+                                <p>12 Hours</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button class="bookNow">Book Now</button>
+                </div>
+
+                <div class="col-12 col-md-4">
+                    <img class="img-fluid w-100" src="images/exquisite-room.png" alt="">
+
+                    <h3>Exquisite Room</h3>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat voluptates deleniti laboriosam aut suscipit adipisci perferendis laborum molestiae eius animi.</p>
+
+                    <div class="roomInfo">
+                        <div class="row">
+                            <div class="col-4">
+                                <p>2 Persons</p>
+                            </div>
+                            <div class="col-4 fullMeal">
+                                <p class="text-center">Full Meal</p>
+                            </div>
+                            <div class="col-4">
+                                <p>12 Hours</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button class="bookNow">Book Now</button>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 col-md-4">
+                    <img class="img-fluid w-100" src="images/fresh-room.png" alt="">
+
+                    <h3>Fresh Room</h3>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat voluptates deleniti laboriosam aut suscipit adipisci perferendis laborum molestiae eius animi.</p>
+
+                    <div class="roomInfo">
+                        <div class="row">
+                            <div class="col-4">
+                                <p>2 Persons</p>
+                            </div>
+                            <div class="col-4 fullMeal">
+                                <p class="text-center">Full Meal</p>
+                            </div>
+                            <div class="col-4">
+                                <p>12 Hours</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button class="bookNow">Book Now</button>
+                </div>
+
+                <div class="col-12 col-md-4">
+                    <img class="img-fluid w-100" src="images/minimal-room.png" alt="">
+
+                    <h3>Minimal Room</h3>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat voluptates deleniti laboriosam aut suscipit adipisci perferendis laborum molestiae eius animi.</p>
+
+                    <div class="roomInfo">
+                        <div class="row">
+                            <div class="col-4">
+                                <p>2 Persons</p>
+                            </div>
+                            <div class="col-4 fullMeal">
+                                <p class="text-center">Full Meal</p>
+                            </div>
+                            <div class="col-4">
+                                <p>12 Hours</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button class="bookNow">Book Now</button>
+                </div>
+
+                <div class="col-12 col-md-4">
+                    <img class="img-fluid w-100" src="images/elegant-room.png" alt="">
+
+                    <h3>Elegant Room</h3>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat voluptates deleniti laboriosam aut suscipit adipisci perferendis laborum molestiae eius animi.</p>
+
+                    <div class="roomInfo">
+                        <div class="row">
+                            <div class="col-4">
+                                <p>2 Persons</p>
+                            </div>
+                            <div class="col-4 fullMeal">
+                                <p class="text-center">Full Meal</p>
+                            </div>
+                            <div class="col-4">
+                                <p>12 Hours</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button class="bookNow">Book Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonial">
+        <div class="testimonialBox d-flex flex-column justify-content-center align-items-center p-5">
+            <h2>What our Customers say</h2>
+
+            <blockquote class="text-center my-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris massa dui vitae at malesuada. Mi tellus feugiat fames iaculis mattis parturient. Sed interdum pellentesque porta euismod egestas. Curabitur adipiscing non sem hac.</blockquote>
+
+            <cite>Daniel Upstrong</cite>
+        </div>
+        <img src="images/testimonial-image.png" class="d-none d-md-block" style="width: 100%;">
+    </section>
+
+    <section id="contactUs">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-md-6 d-flex justify-content-center align-items-center mt-sm-2 mb-sm-4 my-md-0">
+                    <img src="images/map.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-12 col-md-6 d-flex flex-column justify-content-center align-items-center contactUsSection">
+                    <h2>Contact Us</h2>
+                    <p>Got any complaints or enquiries?</p>
+
+                    <form action="" class="p-5">
+                        <div class="row">
+                            <div class="col-6 d-flex justify-content-left align-items-center">
+                                <div class="inputs">
+                                    <input type="text" name="name" id="name" placeholder="Full Name">
+                                    <input type="email" name="email" id="email" placeholder="Email Address" class="my-3">
+                                    <input type="number" name="number" id="number" placeholder="Phone Number">
+                                </div>
+                            </div>
+
+                            <div class="col-6">
+                                <textarea class="p-2" maxlength="250" placeholder="Enter Complaints or Enquiry (250 Words Max)"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="submit text-center mt-4">
+                            <button class="submitBtn">Submit</button>
+                        </div>
+                    </form>
+
+                    <div class="contactInfo text-center my-4">
+                        <p>
+                            Plot 485b, Tiamiyu Jinadu Street <br>
+                            Gbagada, Lagos State. <br>
+                            Nigeria
+                        </p>
+                        <p>+234 905 545 6464    +234 905 545 6464</p>
+                    </div>
+
+                    <div class="socialMedia py-4">
+                        <h3 class="text-center mb-4">Follow us on</h3>
+                        <div class="socialMediaLinks text-center">
+                            <a href="#">
+                                <img src="images/icon.svg" alt="">
+                            </a>
+                            <a href="#">
+                                <img src="images/icon-1.svg" alt="" class="mx-5">
+                            </a>
+                            <a href="#">
+                                <img src="images/icon-2.svg" alt="">
+                            </a>
+                            <a href="#">
+                                <img src="images/icon-3.svg" alt="" class="ml-5">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-3">
+                    <h1>XHOTEL</h1>
+                    <p>Copyright&copy;2020 All rights reserved</p>
+                    <a href="#">Privacy Policy</a>
+                </div>
+                <div class="col-12 col-md-3">
+                    <p class="mt-4">Contact</p>
+
+                    <div class="footerContactInfo mt-2">
+                        <p>
+                            Plot 485b, Tiamiyu Jinadu Street <br>
+                            Gbagada, Lagos State. <br>
+                            Nigeria
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-2 pt-5">
+                    <p class="mt-3">+243 907 635 6946</p>
+                    <p>Xhotels@gmail.com</p>
+                </div>
+                <div class="col-12 col-md-4">
+                    <p class="mt-4">Get information first hand</p>
+
+                    <div class="subscribeBox mt-4">
+                        <input type="email" name="email" id="email" placeholder="Email Address">
+                        <button class="subscribeBtn">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="quickLinks d-flex justify-content-center align-items-center mt-4">
+                <a href="#">Home</a>
+                <a href="#" class="mx-5">Rooms</a>
+                <a href="#">Facilities</a>
+                <a href="#" class="mx-5">Reservation</a>
+                <a href="#">Contact Us</a>
+            </div>
+        </div>
+    </footer>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
